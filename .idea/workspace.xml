@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e2722f0-5192-4853-9a91-737e98940d6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SearchStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/AccountOtherBankPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/AccountTargetTransferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/AgreementReferencePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/AmountTransferACHPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/AmountTransferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CardKeyTransferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CashForAdvancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ClientPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ConfirmAdvancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ConfirmPayPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditCardConfirmationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditCardOriginProductPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditCardResumePaymentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditCardSelectAmountPayPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditPaymentSummaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/DebirAccountTrasnferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/DebitAccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/DebitCardKeyValidatePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/DeferredPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/FinalPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/GoToTheRegisterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/HomePSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoanChooseAccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoanChooseValuePaymentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoanConfirmationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoanResumePaymentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/MoreInformationAccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/NewUserPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/PSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/PayPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/PaymentConfirmationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/PaymentOfCardsAndCreditsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/PaymentRejectedPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ReservationPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ResultTransactionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ResumeAdvancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ReviewTransferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ScotiabankPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SecondAutenticatePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SelectAccountForAdvancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SelectAccountToPayCreditPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SelectAirlinePSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SelectCreditValueToPayPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SelectPayPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ServicesAndAgreementsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SummaryTransferACHPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/TransactionPSEPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/TransferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/UserInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ValidateOTPAndKeyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ValidateTransactionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/AccountTransferACHRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/AccountTransferRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/AdvanceTCRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/AgreementPaymentRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/DeferredRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/LoginRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/PSEPaymentRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/PaidPublicServiceRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/PayCreditRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/ProductPayRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/RegisterUserRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/AccountTransferACHStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/AccountTransferStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/AdvanceTCStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/AgreementPaymentStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/DeferredStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/PSEPaymentStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/PaidPublicServiceStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/PayCreditStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/ProductPayStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/RegisterUserStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AccountOtherBankStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AccountTargetTransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AgreementReferenceStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AmountTransferACHStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AmountTransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CardKeyTransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ConfirmAndValidateAdvanceStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CreditCardConfirmationStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CreditCardOriginProductStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CreditCardResumePaymentStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CreditCardSelectAmountPayStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/CreditPaymentSummaryStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/DebitAccountStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/DebitAccountTransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/DebitCardKeyValidateStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/DeferredStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/GoToTheRegisterStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/HomePSEStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/HomeStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoanChooseAccountStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoanChooseValuePaymentStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoanConfirmationStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoanResumePaymentStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/MoreInformationAccountStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/NewUserStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/PayStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/PaymentConfirmationStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/PaymentOfCardsAndCreditsStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/PaymentRejectedStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/PrincipalStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ResultTransactionStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ReviewTransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SelectAccountAndAmountStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SelectAccountToPayCreditStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SelectCardAndAdvanceStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SelectCreditValueToPayStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ServicesAndAgreementsStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SummaryTransferACHStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/TransferStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/TypePSEStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/UserInfoStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ValidateOTPStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ValidatePSEStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/ValidateTransactionStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/utils/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/utils/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTransfer.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTransferACH.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdvanceTC.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AgreementPayment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Deferred.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PSEPayment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PaidPublicService.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PayCredit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ProductPay.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUser.feature" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/LoginRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SearchStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ServicesAndAgreementsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/utils/Functions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/FinalPSEPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SearchStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/LoginRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoginStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/LoginStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoginPage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Dependencies\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Dependencies\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jump-maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jump-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginRunner">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="prueba-tecnica" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: : Successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="prueba-tecnica" />
+      <option name="NAME_FILTER" value="^\: Successful login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^\: Successful login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: : Successful login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prueba-tecnica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.colpatria.automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.colpatria.automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.test.colpatria.automation.runners.LoginRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginRunner" />
+        <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="Cucumber java.Scenario: : Successful login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e2722f0-5192-4853-9a91-737e98940d6b" name="Default Changelist" comment="" />
+      <created>1621862517219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621862517219</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LoginRunner - 2021.05.24 at 10h 24m 50s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 10h 29m 56s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 10h 49m 33s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 10h 56m 24s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 00m 59s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 02m 12s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 02m 53s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 04m 56s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 06m 30s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginRunner - 2021.05.24 at 11h 08m 53s.xml">
+      <configuration name="LoginRunner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4635879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.60035527" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/AccountTargetTransferStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/utils/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ServicesAndAgreementsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/CreditCardConfirmationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ConfirmPayPSEPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/ClientPSEPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/DebitCardKeyValidatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/FinalPSEPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/PaidPublicServiceStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/RegisterUserStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Dependencies/.m2/repository/net/serenity-bdd/serenity-core/2.0.40/serenity-core-2.0.40.jar!/net/serenitybdd/core/pages/WebElementFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/LoginStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/stepDefinitions/LoginStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/steps/SearchStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/runners/LoginRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/colpatria/automation/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
